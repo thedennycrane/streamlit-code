@@ -76,6 +76,7 @@ def build_metadata(year_selected, lawyer_selected, law_firm_selected, coram_sele
 def clean_title(title):
     return title.replace("[","").replace("]", "").replace("(","").replace(")","").replace("\n","").replace("      ", "")
 
+# Client only wanted 1 instance of each case...the VectorDB contains multiple instances of the same case. This function removes redundant cases
 def remove_duplicates(results):
 
     unique_cases = []

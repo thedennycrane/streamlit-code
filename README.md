@@ -16,7 +16,7 @@ Installation of repo is as simple as creating a virtual requirement (if needed) 
 
 ## Code Structure
 app.py
-Contains front-end code and API calls Pinecone
+Contains front-end code and API calls to Pinecone
 
 utils.py
 Helper functions used in utils.py
